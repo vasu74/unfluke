@@ -20,7 +20,7 @@ const Navbar = () => {
         <SearchInput />
       </div>
       {/* Third Menu */}
-      <div className="flex items-center justify-around gap-10 shadow-sm hover:shadow-md px-6  py-2 rounded-full  ">
+      <div className="flex items-center justify-around gap-6 shadow-sm hover:shadow-md px-6  py-2 rounded-full  ">
         <div className="relative inline-block group">
           <a href="#" className="px-4 py-2">
             Notification
