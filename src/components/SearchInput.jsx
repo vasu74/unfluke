@@ -9,7 +9,7 @@ const SearchInput = () => {
       </span>
       <input
         className="block w-full pl-10 pr-3 py-2 border border-gray-400 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm:text-sm"
-        placeholder="Search"
+        placeholder="Search About Trade"
         type="text"
       />
     </label>

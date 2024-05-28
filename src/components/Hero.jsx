@@ -7,11 +7,11 @@ import ShowContent from "./showContent";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-row md:flex-row justify-between  md:justify-center  items-center px-8 text-center">
+      <div className="flex relative  flex-row md:flex-row justify-between  md:justify-center  items-center px-8 text-center">
         <h2 className="text-4xl font-semibold text-center md:order-2 text-[#E27498]">
           LeaderBoard
         </h2>
-        <div className="lg:hidden flex">
+        <div className="md:hidden flex">
           <FlyOut href="#" FlyoutContent={ShowContent}>
             <a className="">Show Option</a>
           </FlyOut>
