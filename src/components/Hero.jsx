@@ -7,17 +7,15 @@ import ShowContent from "./showContent";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-row md:flex-row justify-between  md:justify-center  items-center px-3 text-center">
+      <div className="flex flex-row md:flex-row justify-between  md:justify-center  items-center px-8 text-center">
         <h2 className="text-4xl font-semibold text-center md:order-2 text-[#E27498]">
           LeaderBoard
         </h2>
-        <FlyOut href="#" FlyoutContent={ShowContent}>
-          <a className="">Show Option</a>
-        </FlyOut>
-
-        {/* <Button className="md:flex hidden" variant="secondary">
-          My Earning
-        </Button> */}
+        <div className="lg:hidden flex">
+          <FlyOut href="#" FlyoutContent={ShowContent}>
+            <a className="">Show Option</a>
+          </FlyOut>
+        </div>
       </div>
       {/* menu bar  */}
       <Menu />
